@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans';
+    text-decoration: none;
+    color: white;
+}
+
+html body {
+    background-color: #222831;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    margin: 20px;
+    padding: 10px 80px 10px 80px;
+    background-color: #31363F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+
+li {
+    margin-right: 30px;
+}
+
+li:nth-child(4) {
+    margin: 0px;
+}
+
+.logo{
+    filter: invert(1);
+    width: 10vw;
+    height: auto;
+    padding: 5px;
+}
+
+.menubar {
+    display: none;
+}
+
+.menubar img{
+    width: 30px;
+    height: auto;
+}
+
+/* Navigation Bar */
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    html body {
+        transition: 0.3s;
+    }
+
+    /* Navigation Bar */
+
+    .navbar {
+        transition: 0.5s;
+        margin: 0px;
+        padding: 10px 40px 10px 40px;
+        border-radius: 0px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .logo{
+        filter: invert(1);
+        width: 20vw;
+    }
+
+    nav ul {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    nav ul li {
+        width: 100vw;
+        padding: 20px;
+        margin-right: 0px;
+        border-bottom: 0.1px solid white;
+    }
+
+    nav ul li:nth-child(4) {
+        border-bottom: none ;
+    }
+
+    .menubar {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    #menuList {
+        transition: 0.5s;
+    }
+
+    /* Navigation Bar */
+
+}
+
+/* Responsive */
