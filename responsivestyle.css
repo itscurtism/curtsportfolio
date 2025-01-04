@@ -4,6 +4,11 @@
         transition: 0.3s;
     }
 
+    .webTitle {
+        font-size: 7vh;
+        font-weight: 900;
+    }
+
     /* Navigation Bar */
 
     #navbar {
@@ -106,4 +111,15 @@
     }
 
     /* Home */
+
+    /* About */
+    #aboutContainer {
+        text-align: center;
+        margin: 8% 10% 8% 10%;
+    }
+
+    #aboutInfo {
+        margin: 2rem 0 0 0;
+        font-size: 1.2rem;
+    }
 }

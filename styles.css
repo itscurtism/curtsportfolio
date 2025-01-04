@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-@import url('responsivestyle.css');
+
 
 * {
     margin: 0;
@@ -125,6 +125,7 @@ li:nth-child(4) {
 /* About */
 
 #aboutContainer {
+    text-align: left;
     margin: 8% 10% 8% 10%;
 }
 
