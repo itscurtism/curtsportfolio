@@ -1,0 +1,61 @@
+
+@media (max-width: 600px) {
+
+    html body {
+        transition: 0.3s;
+    }
+
+    /* Navigation Bar */
+
+    #navbar {
+        transition: 0.5s;
+        margin: 0px;
+        padding: 10px 40px 10px 40px;
+        border-radius: 0px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .logo{
+        filter: invert(1);
+        width: 20vw;
+    }
+
+    nav ul {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    nav ul li {
+        width: 100vw;
+        padding: 20px;
+        margin-right: 0px;
+        border-bottom: 0.1px solid white;
+    }
+
+    nav ul li:nth-child(4) {
+        border-bottom: none ;
+    }
+
+    .menubar {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    #menuList {
+        transition: 0.5s;
+    }
+
+    /* Navigation Bar */
+
+}
