@@ -1,4 +1,3 @@
-
 @media (max-width: 600px) {
 
     html body {
@@ -58,4 +57,53 @@
 
     /* Navigation Bar */
 
+    /* Home */
+
+    #headshot {
+        width: 90%;
+        border-radius: 30px;
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+
+    #aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10%;
+        padding: 0;
+    }
+    .myname {
+        font-weight: 900;
+        font-size: 3.5rem;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    #sideContainer {
+        text-align: center;
+    }
+
+    .nameSub {
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 25px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #linkedin {
+        margin-right: 1rem;
+    }
+
+    #logosContainer img {
+        width: 2.5rem;
+        margin-right: 0rem;
+    }
+
+    #logosContainer {
+        margin-left: 0;
+    }
+
+    /* Home */
 }
