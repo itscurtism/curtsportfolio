@@ -66,7 +66,7 @@
         margin-bottom: 10%;
     }
 
-    #aboutContainer {
+    #homeContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
