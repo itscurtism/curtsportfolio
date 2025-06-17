@@ -125,70 +125,71 @@
 
     /* Contact */
 
-.contactFull {
-    align-items: center;
-    text-align: center;
-    margin: 8% 10% 8% 10%;
-}
+    .contactFull {
+        align-items: center;
+        text-align: center;
+        margin: 8% 10% 8% 10%;
+    }
 
 
-#contactContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    #contactContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.contactMessage {
-    font-size: 20px;
-    line-height: 30px;
-}
+    .contactMessage {
+        font-size: 20px;
+        line-height: 30px;
+    }
 
-#formContainer {
-    text-align: left;
-    line-height: 3em;
-    padding-top: 2%;
-}
+    #formContainer {
+        text-align: left;
+        line-height: 3em;
+        padding-top: 2%;
+    }
 
-input {
-    border-radius: 5px;
-    padding: 15px;
-    width: 92%;
-    color: black;
-}
+    input {
+        border-radius: 5px;
+        padding: 15px;
+        width: 92%;
+        color: black;
+    }
 
-textarea {
-    border-radius: 5px;
-    padding: 15px;
-    color: black;
-    width: 92%;
-}
+    textarea {
+        border-radius: 5px;
+        padding: 15px;
+        color: black;
+        width: 92%;
+    }
 
-button {
-    margin-top: 10px;
-    padding: 10px;
-    color: white;
-    background-color: black;
-    width: 100%;
-    border-radius: 5px;
-    justify-content: center;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-}
+    button {
+        margin-top: 10px;
+        padding: 10px;
+        color: white;
+        background-color: black;
+        width: 100%;
+        border-radius: 5px;
+        justify-content: center;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
-#contactSideContainer {
-    
-    margin: 20px 0 0 0;
-    padding: 0;
-}
+    #contactSideContainer {
+        
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
 
-#logosContainerContact img{
-    width: 2.5rem;
-    margin-left: 5%;
-    margin-top: 20px;
-}
+    #logosContainerContact img{
+        width: 2.5rem;
+        margin-right: 0rem;
+        margin-left: 2%;
+        margin-top: 20px;
+    }
 
-/* Contact */
+    /* Contact */
 }
 
