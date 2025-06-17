@@ -135,3 +135,64 @@ li:nth-child(4) {
 }
 
 /* About */
+
+/* Contact */
+
+.contactFull {
+    text-align: left;
+    margin: 8% 10% 8% 10%;
+}
+
+
+#contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactMessage {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#formContainer {
+    line-height: 3em;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    color: black;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    width: 500px;
+}
+
+button {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#contactSideContainer {
+    padding: 15% 0 0 10%;
+    line-height: 100px;
+}
+
+#logosContainerContact img{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+/* Contact */

@@ -77,7 +77,11 @@
 
     <div id="aboutContainer">
       <h2 class="webTitle">Projects</h2>
-      <p id="aboutInfo">Coming Soon!</p>
+      <p id="aboutInfo">
+        Unfortunately, I have no projects to show yet, so please consider this
+        <br />
+        website as my first step into Web Development!
+      </p>
     </div>
 
     <!-- Projects -->
@@ -85,27 +89,50 @@
     <hr id="pageDivide" />
 
     <!-- Contact -->
-
-    <div id="contactContainer">
+    <div class="contactFull">
       <h2 class="webTitle">Contact</h2>
-      <form action="">
-        <input type="text" name="name" placeholder="Your Name:" required />
-        <input type="text" name="email" placeholder="Your Email:" required />
-        <input type="text" name="subject" placeholder="Subject:" required />
-        <textarea name="message" placeholder="Message:" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
-      <div id="sideContainer">
-        <div id="logosContainer">
-          <a
-            id="linkedin"
-            target="#"
-            href="https://www.linkedin.com/in/curtis-mostales-25b84322a/"
-            ><img src="img/linkedin_icon.svg" alt="LinkedIn Icon"
-          /></a>
-          <a target="#" href="https://github.com/itscurtism"
-            ><img src="img/github_icon.svg" alt="GitHub Icon"
-          /></a>
+      <div id="contactContainer">
+        <div id="formContainer">
+          <form id="contactForm" action="">
+            <p>Name:</p>
+            <input type="text" name="name" placeholder="Your Name:" required />
+            <p>Email:</p>
+            <input
+              type="text"
+              name="email"
+              placeholder="Your Email:"
+              required
+            />
+            <p>Subject:</p>
+            <input type="text" name="subject" placeholder="Subject:" required />
+            <p>Message:</p>
+            <textarea
+              name="message"
+              rows="10"
+              placeholder="Message:"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="contactSideContainer">
+          <p class="contactMessage">
+            Let's talk! <br />
+            Fill out the form and let's get in touch.<br />You can also check
+            out my LinkedIn and Github <br />
+            using the icons below!
+          </p>
+          <div id="logosContainerContact">
+            <a
+              id="linkedin"
+              target="#"
+              href="https://www.linkedin.com/in/curtis-mostales-25b84322a/"
+              ><img src="img/linkedin_icon.svg" alt="LinkedIn Icon"
+            /></a>
+            <a target="#" href="https://github.com/itscurtism"
+              ><img src="img/github_icon.svg" alt="GitHub Icon"
+            /></a>
+          </div>
         </div>
       </div>
     </div>
