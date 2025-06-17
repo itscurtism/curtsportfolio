@@ -27,6 +27,14 @@ a:visited {
     margin: 0 10% 0 10%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 200px;
+}
+
 /* Navigation Bar */
 #navbar {
     position: sticky;
@@ -187,6 +195,7 @@ button {
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #contactSideContainer {
@@ -198,4 +207,5 @@ button {
     width: 2.5rem;
     margin-right: 1rem;
 }
+
 /* Contact */
